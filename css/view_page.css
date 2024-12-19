@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  font-size: 16px;
+}
+.productss {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-product {
+  flex-basis: 50%;
+}
+
+.img-product img {
+  max-width: 100%;
+  height: auto;
+}
+.img-product img:hover {
+  transform: scale(1.06);
+}
+.img-product img{
+  transition-duration: 0.3s;
+  overflow: hidden;
+}
+.titless {
+  flex-basis: 50%;
+  padding: 5vh 5% 2vh;
+
+}
+
+.trangchu-sanpham a {
+  font-size: .85em;
+  margin: 0 0 .5em;
+  color: #222;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgba(102, 102, 102, .7);
+  font-weight: 400;
+
+}
+
+.trangchu-sanpham a:hover {
+  color: black;
+}
+
+.title-product {
+  margin-bottom: .5em;
+  margin-top: .5em;
+}
+
+.price {
+  margin-bottom: .5em;
+
+}
+
+.trangchu-sanpham p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 850px) {
+  .productss {
+    flex-direction: column;
+  }
+  .add-productss{
+    display: flex;
+    flex-direction: column;
+  }
+/* body{
+  font-size: 10px;
+} */
+  .chinhsach-banhang summary {
+    padding: 5vh 5% 2vh;
+  }
+}
+
+.quantity {
+  display: flex;
+}
+
+.quantity input {
+  /* border-radius: .4rem; */
+  width: 5em;
+}
+.add-productss{
+  flex: 1;
+}
+.quantity .add-productss {
+display: flex;
+flex-direction: row;
+height: 4rem;
+justify-content: space-evenly;
+
+}
+.add-productss input{
+  width: 17rem;
+  height: 4rem;
+}
+
+.quantity .add-productss input {
+  color: black;
+
+}
+
+.quantity .add-productss input:hover {
+  background-color: aquamarine;
+}
+
+.chinhsach-banhang {
+  padding: 40px 0 0 0;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.chinhsach-banhang details p,
+li {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.chinhsach-banhang summary {
+  font-size: 1.5rem;
+  width: auto;
+  /* background-color: rgb(147, 139, 139); */
+  height: 3rem;
+  box-sizing: border-box;
+  padding-top: 0.5rem;
+}
+
+.gach-ngang {
+  height: 1px;
+  background-color: #ddd;
+}
+
+.tongsanpham {
+  display: flex;
+  padding-top: 40px;
+  /* max-width: 1200px; */
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.sanpham-tuongtu {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid rgb(169, 163, 163);
+}
+.sanpham-tuongtu h2{
+padding: 2rem 0 1rem 3.5rem;
+}
+.sanpham {
+  flex-basis: 25%;
+}
+.tit{
+  padding-bottom: 0.7rem;
+}
+.ngoisao {
+  color: rgb(199, 199, 37);
+  display: inline;
+  padding-bottom: 0.3rem;
+}
+.sanpham img:hover {
+  transform: scale(1.06);
+}
+.sanpham img{
+  transition-duration: 0.3s;
+  overflow: hidden;
+}
+.price{
+  padding-top: 0.3rem;
+}
